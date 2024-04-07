@@ -1,4 +1,4 @@
-def triplet_consecutive_sum (arr,k):
+def triplet_consecutive_sum (arr):
     max_triplet = float('-inf')
     triplet = []
     for i in range(len(arr) - 2):
